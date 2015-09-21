@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dialog">
+      <UniqueIdentifier>{99c858de-2329-49ab-a2e7-e85d697b3efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP">
+      <UniqueIdentifier>{e7b298c9-c397-4061-a478-558c1170afc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{f4c34734-4908-4384-a9db-9b9a750ffe5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList">
+      <UniqueIdentifier>{439e26cc-7fe2-40ac-b3d4-6a55d0df9eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP\Header">
+      <UniqueIdentifier>{83c12c63-2d76-48ce-820a-b94d6cf4f78d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOCP\Source">
+      <UniqueIdentifier>{32c39a7c-b477-496e-aab8-d9e8590a879c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Client">
+      <UniqueIdentifier>{f98a7e15-66d5-4f32-a3d2-bf3bbe8481e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Room">
+      <UniqueIdentifier>{9af63049-0863-40a4-926f-35836fa0f3be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Time">
+      <UniqueIdentifier>{8c1f88b3-f259-4c97-b96f-6166ca110be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Bitmap">
+      <UniqueIdentifier>{5db11134-297a-41a1-a225-70d630f4fedc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Client\IDManager">
+      <UniqueIdentifier>{014f59d3-c889-4831-b1cd-025a5f3e01c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity/EntityList\Client\Socket">
+      <UniqueIdentifier>{74ac6fae-36eb-4dd5-a9d0-1353754e81f0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\ToonVasServer.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\ToonVasServer.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="..\..\KakaoTalk_468b19716f983f3e.jpg">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="libmysql.dll" />
+    <None Include="res\1392836375_130208.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\icon2.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="res\test.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonVasServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ToonVasServerDlg.h">
+      <Filter>Dialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerManager.h">
+      <Filter>IOCP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MyThread.h">
+      <Filter>IOCP\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RoomList.h">
+      <Filter>Entity/EntityList\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Entity/EntityList\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTime.h">
+      <Filter>Entity/EntityList\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBitmap.h">
+      <Filter>Entity/EntityList\Bitmap</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSocketList.h">
+      <Filter>Entity/EntityList\Client\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="UserSocket.h">
+      <Filter>Entity/EntityList\Client\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="IDManager.h">
+      <Filter>Entity/EntityList\Client\IDManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UserID.h">
+      <Filter>Entity/EntityList\Client\IDManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonVasServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ToonVasServerDlg.cpp">
+      <Filter>Dialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerManager.cpp">
+      <Filter>IOCP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyThread.cpp">
+      <Filter>IOCP\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RoomList.cpp">
+      <Filter>Entity/EntityList\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Entity/EntityList\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTime.cpp">
+      <Filter>Entity/EntityList\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBitmap.cpp">
+      <Filter>Entity/EntityList\Bitmap</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSocketList.cpp">
+      <Filter>Entity/EntityList\Client\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="UserSocket.cpp">
+      <Filter>Entity/EntityList\Client\Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="IDManager.cpp">
+      <Filter>Entity/EntityList\Client\IDManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UserID.cpp">
+      <Filter>Entity/EntityList\Client\IDManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ToonVasServer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

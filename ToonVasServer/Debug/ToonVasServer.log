@@ -1,0 +1,77 @@
+﻿빌드 시작: 2014-12-07 오전 1:50:00
+     1>2 노드의 "G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\ToonVasServer\ToonVasServer.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\ToonVasServer.unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ToonVasServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ToonVasServer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IDManager.cpp MyBitmap.cpp MyThread.cpp MyTime.cpp Packet.cpp Room.cpp RoomList.cpp ServerManager.cpp ToonVasServer.cpp ToonVasServerDlg.cpp UserID.cpp UserSocket.cpp UserSocketList.cpp
+         UserSocketList.cpp
+         UserSocket.cpp
+     1>UserSocket.cpp(43): warning C4800: 'BOOL' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+         UserID.cpp
+     1>UserID.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+         ToonVasServerDlg.cpp
+         ToonVasServer.cpp
+         ServerManager.cpp
+     1>ServerManager.cpp(69): warning C4018: '<' : signed 또는 unsigned가 일치하지 않습니다.
+     1>ServerManager.cpp(844): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(943): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 'fopen' 선언을 참조하십시오.
+     1>ServerManager.cpp(1100): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1234): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1254): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1274): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1304): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1330): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+     1>ServerManager.cpp(1354): warning C4996: 'itoa': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _itoa. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdlib.h(867) : 'itoa' 선언을 참조하십시오.
+         RoomList.cpp
+         Room.cpp
+     1>Room.cpp(13): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+     1>Room.cpp(14): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files\Microsoft Visual Studio 10.0\VC\include\string.h(105) : 'strcpy' 선언을 참조하십시오.
+         Packet.cpp
+         MyTime.cpp
+         MyThread.cpp
+         MyBitmap.cpp
+         IDManager.cpp
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\ToonVasServer.res" ToonVasServer.rc 
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\Debug\ToonVasServer.exe" /INCREMENTAL /NOLOGO WS2_32.LIB ws2_32.lib /MANIFEST /ManifestFile:"Debug\ToonVasServer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\Debug\ToonVasServer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\Debug\ToonVasServer.lib" /MACHINE:X86 Debug\ToonVasServer.res
+         Debug\IDManager.obj
+         Debug\MyBitmap.obj
+         Debug\MyThread.obj
+         Debug\MyTime.obj
+         Debug\Packet.obj
+         Debug\Room.obj
+         Debug\RoomList.obj
+         Debug\ServerManager.obj
+         Debug\stdafx.obj
+         Debug\ToonVasServer.obj
+         Debug\ToonVasServerDlg.obj
+         Debug\UserID.obj
+         Debug\UserSocket.obj
+         Debug\UserSocketList.obj
+         ToonVasServer.vcxproj -> G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\Debug\ToonVasServer.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\Debug\ToonVasServer.exe.manifest" /manifest Debug\ToonVasServer.exe.intermediate.manifest "c:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         "Debug\ToonVasServer.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\ToonVasServer.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"G:\대학교\프린터자료\4학년1학기\시프\공개SW공모전\Spen의 기적\서버\ToonVasServer\ToonVasServer.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:13.37
